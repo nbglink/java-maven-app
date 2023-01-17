@@ -10,7 +10,7 @@ library identifier: 'jenkins-shared-library@master', retriever: modernSCM(
 pipeline {
     agent any
     tools {
-        maven 'Maven'
+        maven 'maven-3.8'
     }
     environment {
         IMAGE_NAME = 'nbglink/demo-app:java-maven-2.0'
